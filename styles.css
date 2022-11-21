@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#navbar {
+position: fixed;
+top: 0;
+width: 200px;
+height: 100%;
+margin-left: -08px;
+padding: 10px;
+border-right: 1px solid #444444;
+background-color: #efda4f;
+overflow: auto;
+
+}
+
+#navbar a{
+  display: block;
+  color: #726e2e;
+  text-decoration: none;
+  border-top: 1px solid #44444490;
+  padding: 10px;
+  
+}
+
+#navbar a:last-of-type{
+  border-bottom: 1px solid #44444490;
+  
+}
+
+#navbar a:hover{
+  color: #1F1F1F;
+  font-weight: bold;
+}
+
+#main-doc {
+  margin-top: 10px;
+  margin-left: 210px;
+  padding: 20px;
+  background-color: #F9F9FA;
+}
+
+section{
+  margin: 5px auto 50px 10px;
+  border-bottom: 1px solid #44444490;
+  padding-bottom: 50px;
+}
+
+section:last-of-type{
+  border-bottom: hidden;
+  margin-bottom: -10px;
+}
+
+#Deklaracija_varijabli{
+  border: none;
+}
+
+#Hello_World{
+  padding-bottom: 40px;
+}
+
+p, ul, ol {
+  color: #444444;
+}
+
+h1{
+  color:#1F1F1F;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+.main-section header{
+  font-weight: 600;
+  font-size: 24px;
+  color: #333431;
+  margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 20px;
+    max-height: 150px;
+    z-index: 1;
+    border-bottom: 1px solid #444444;
+  }
+  
+  #navbar a:last-of-type{
+  border-bottom: hidden;
+  
+}
+
+  #main-doc {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 0px;
+  }
+
+  #Uvod{
+    margin-top: 50px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  #Deklaracija_varijabli{
+    margin-bottom: 0;
+  }
+}
+
+

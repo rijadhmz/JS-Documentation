@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Dokumentacija JS</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+  <body>
+    <nav id='navbar'>
+      <header><h1>JavaScript Documentation</h1></header>
+      <a class='nav-link' href='#uvod'>Uvod</a>
+      <a class='nav-link' href='#sta_trebate_znati'>Sta trebate znati</a>
+      <a class='nav-link' href='#javascript_i_java'>JavaScript i Java</a>
+      <a class='nav-link' href='#hello_world'>Hello World</a>
+      <a class='nav-link' href='#varijable'>Varijable</a>
+      <a class='nav-link' href='#deklaracija_varijabli'>Deklaracija varijabli</a>
+    </nav>
+    <main id='main-doc'>
+      <section id='uvod' class='main-section'> 
+        <header>Uvod</header>
+        <p>JavaScript je jednostavan, interpretiran programski jezik namijenjen ponajprije razvoju interaktivnih HTML-stranica.</p>
+        <p>Jezgra JavaScripta uključena je u većinu današnjih preglednika (Internet Explorer, Google Chrome, Mozilla Firefox, Opera, Safari i drugi).</p>
+
+      </section>
+      <section id='sta_trebate_znati' class='main-section'>
+        <header>Sta trebate znati</header>
+        <p> Vodic podrazumijeva da znate sljedece:</p>
+        <ol>
+          <li>Generalno razumijevanje interneta i WWW (World Wide Web), </li>
+          <li>Dobro razumijevanje HTMla (Hyper Text Markup Language) </li>
+          <li>Neko iskustvo s programiranjem. Ako ste novi u svijetu programiranja, probajte jedan od tutorijala na nasem sajtu.</li>
+        </ol>
+      </section>
+
+      <section id='javascript_i_java' class='main-section'>
+        <header>JavaScript i Java</header>
+        <p>Java i Javascript mogu zvučati slično zbog reči „java“, ali ovo dvoje osim toga, nemaju sličnosti. Iako se i Java i Javascript koriste za razvoj web i mobilnih aplikacija, postoje zaista važne razlike između njih.</p>
+        <ul>
+          <li><strong>Javu</strong> je kreirao 1991. godine James Gosling i od tada je postao jedan od najpopularnijih programskih jezika na svetu. Posle njegovog stvaranja, grupi inženjera Sun Microsistems-a trebalo je 4 godine da razviju Javu. Pored web i mobilnih aplikacija, Java se takođe koristi u ugrađenim sistemima, desktop aplikacijama i u naučnim aplikacijama. 3 milijarde uređaja širom sveta, uključujući računare, štampače, pametne telefone, bankomate, kućne bezbednosne sisteme, koriste programski jezik Java.</li>
+           <li><strong>JavaScript</strong>, koji je stvoren 1995. kao skriptni jezik za web, bio je poznat pod nazivom Mocha. Brendan Eich-u je trebalo 10 dana da ga razvije. Nakon nekog vremena njegovo ime je promenjeno u LiveScript, a zatim u JavaScript, uglavnom kao marketinška taktika kako bi ga povezivali sa već popularnim programskim jezikom Java. Osim imena, Java i JavaScript nisu ni na koji način povezani.</li>
+        </ul>
+      </section>
+
+      <section id='hello_world' class='main-section'>
+        <header>Hello World</header>
+        <p> Kako bi zapoceli pisanjem Javascripta, otvorite Scratchpad i napisite vas prvi "Hello world" Javascript kod:</p>
+        <code>function greetMe(yourName) { alert("Hello " + yourName); } greetMe("World");</code>
+        <p> Selektujte kod u padu i pretisnite ctrl+R i pratite vas browser!.</p>
+        <code>Hello World</code>
+      </section>
+      <section id="varijable" class='main-section'>
+        <header>Varijable</header>
+        <p>Nazivi varijabli i funkcija trebaju zadovoljavati ovo pravilo: prvi znak u nazivu treba biti slovo, podcrta ( _ ) ili dolarski znak ($). Znakovi koji slijede mogu biti slova, brojevi, podcrta ili dolarski znak.</p>
+        <p>Nazivi ne smiju biti isti kao ključne riječi. Neke od rijeci koje treba izbjegavati kod imenovanja varijabli su: break, else, continue, delete, void i slicno.</p>
+      </section>
+
+      <section id="deklaracija_varijabli" class='main-section'>
+        <header>Deklaracija varijabli</header>
+        <p>Varijablu mozete deklarisati na 3 razlicita nacina: <br> Sa kljucnom rijeci var:</p>
+        <code>var x = 42.</code>
+        <p> Ova sintaksa se moze koristiti za lokalne i globalne varijable. Potrebno je samo dodijeliti vrijednost:</p>
+        <code>x = 42.</code>
+        <p> Ovo uvijek deklarira globalnu varijablu. Generise striktno JavaScript upozorenje. Ne bi trebali ovo koristiti. <br> S kljucnom rijeci "let":</p>
+        <code>let y = 13.</code>
+        <p> Ovu sintaksu mozete koristiti za deklarisanje block scope local varijable.</p>
+      </section>
+    </main>
+  </body>
+<html>
