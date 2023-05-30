@@ -1,3 +1,5 @@
 # JS-Documentation
 
-This web project is a minimalistic JavaScript documentation page.
+## Plain HTML & CSS practice
+
+Minimalistic JavaScript documentation page.
